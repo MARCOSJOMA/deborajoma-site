@@ -1,0 +1,5 @@
+
+deployment:
+  tasks:
+    - export DEPLOYPATH=public_html/deborajoma.com.br
+    - /bin/cp -r * $DEPLOYPATH
